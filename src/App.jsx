@@ -1,35 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <>
+    <main>
+      <h1>Resolução Exercícios TP3</h1>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <a href="src/exercicio_01/index.html">TP 1</a>
+        <a href="src/exercicio_02/index.html">TP 2</a>
+        <a href="src/exercicio_03/index.html">TP 3</a>
+        <a href="src/exercicio_04/index.html">TP 4</a>
+        <a href="src/exercicio_05/index.html">TP 5</a>
+        <a href="src/exercicio_06/index.html">TP 6</a>
+        <a href="src/exercicio_07/index.html">TP 7</a>
+        <a href="src/exercicio_08/index.html">TP 8</a>
+        <a href="src/exercicio_09/index.html">TP 9</a>
+        <a href="src/exercicio_10/index.html">TP 10</a>
+        {/* <a href="src/exercicio_11/index.html">TP 11</a>
+        <a href="src/exercicio_12/index.html">TP 12</a>
+        <a href="src/exercicio_13/index.html">TP 13</a>
+        <a href="src/exercicio_14/index.html">TP 14</a>
+        <a href="src/exercicio_15/index.html">TP 15</a>
+        <a href="src/exercicio_16/index.html">TP 16</a> */}
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </main>
+  );
 }
-
-export default App

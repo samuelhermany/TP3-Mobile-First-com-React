@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Inter:opsz,wght@14..32,500&family=Poppins:wght@100;500&family=Raleway:wght@100..900&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="../global.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+   <title>Exercicio_02</title>
+</head>
+<body>
+   <header>
+      <nav class="nav">
+         <ul class="menu">
+            <li>
+               <div class="menu-mobile">
+                  <input type="checkbox" id="check" onclick="toggleCheckbox()">
+                  <label for="check" class="checkbtn">
+                     <i class="fas fa-bars"></i>
+                     <!-- <i class="fa-solid fa-xmark"></i> -->
+                  </label>
+                  <svg class="logo" width="56" height="32" viewBox="0 0 56 32" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M47.7031 24.8999H56.0031L28.3365 0L0.669922 24.8999H8.96989L28.3365 7.44231L47.7031 24.8999ZM14.5032 5.00765V0H6.20324V12.45L14.5032 5.00765Z" fill="currentColor"/>
+                     <path d="M26.5157 23.7379C26.5157 24.4462 26.3497 25.0936 26.0177 25.6801C25.6968 26.2556 25.2043 26.7204 24.5403 27.0745C23.8874 27.4176 23.085 27.5891 22.1333 27.5891H20.5231V31.5399H17.2695V19.8369H22.1333C23.074 19.8369 23.8708 20.0029 24.5237 20.3349C25.1877 20.6669 25.6857 21.1262 26.0177 21.7127C26.3497 22.2992 26.5157 22.9743 26.5157 23.7379ZM21.8179 24.9995C22.7364 24.9995 23.1957 24.579 23.1957 23.7379C23.1957 22.8858 22.7364 22.4597 21.8179 22.4597H20.5231V24.9995H21.8179Z" fill="currentColor"/>
+                     <path d="M39.2104 19.8369L35.1766 31.5399H31.01L26.9596 19.8369H30.4456L33.1016 28.2863L35.741 19.8369H39.2104Z" fill="currentColor"/>
+                   </svg>
+               </div>
+            </li>
+            <li data-tooltip="Home"><i class="fa-solid fa-house"></i>Home</li>
+            <li><i class="fa-solid fa-spa"></i>Explore</li>
+            <li><i class="fa-regular fa-compass"></i>Rooms</li>
+            <li><i class="fa-solid fa-address-card"></i>About</li>
+            <li><i class="fa-solid fa-address-book"></i>Contact</li>
+            <li><i class="fa-regular fa-calendar-days"></i>Agenda</li>
+            <li><i class="fa-solid fa-chart-line"></i>Dasborad</li>
+            <li><i class="fa-solid fa-gear"></i>Settings</li>
+         </ul>
+         <!-- <button class="btn">Book now</button> -->
+      </nav>
+   </header>
+   <main class="conteudo">
+      <div class="banner-div">
+         <img class="banner-mobile" src="../img/background_mobile.png" alt="praia">
+         <img class="banner" src="../img/background.png" alt="praia">
+      </div>
+      <div>
+         <h1 class="titulo">Paradise View</h1>
+         <h2 class="sub-titulo">Hotel for every moment rich in emotion</h2>
+         <p>Every moment feels like the first time in paradise view</p>
+         <div class="tour">
+            <button class="btn-round">Book now</button>
+            <img class="btn-play" src="../img/play-button.png" alt="play">
+            <p class="btn-play-titulo">Take a tour</p>
+         </div>
+      </div>
+   </main>
+
+   <script src="script.js"></script>
+</body>
+</html>
